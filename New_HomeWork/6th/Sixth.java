@@ -11,6 +11,7 @@ public class Sixth {
             Result[j] = Result[j-1] + Result[j-2];
         }
         System.out.println(Result[N]);
+        sc.close();
     }
     
 }
