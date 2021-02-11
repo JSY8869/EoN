@@ -4,3 +4,5 @@
 1. [2주차 과제](New_HomeWork/2nd)
 2. [3주차 과제](New_HomeWork/3rd)
 3. [4주차 과제](New_HomeWork/4th)
+4. [5주차 과제](New_HomeWork/5th)
+5. [6주차 과제](New_HomeWork/6th)
