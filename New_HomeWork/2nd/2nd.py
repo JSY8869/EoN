@@ -1,4 +1,2 @@
-def Sum_Total(Input_List):
-    return sum(Input_List)
-result = Sum_Total(Input_List = list(map(int,input().split())))
-print(result)
+Input_Number = int(input())
+print("짝수" if Input_Number % 2 == 0 else "홀수")

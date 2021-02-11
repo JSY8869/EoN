@@ -16,7 +16,6 @@
 6. 모든 에러의 대하여 예외처리 할 것.
 7. 객체지향언어로 코딩할것.
 '''
-
 import os
 import train_menu1
 import train_menu3
@@ -44,11 +43,11 @@ class main:
             print("1~4 사이의 값을 입력하여 주세요.^^")
             self.menu(TR_List, ticket_index)
                     
-
-THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
-my_file = os.path.join(THIS_FOLDER, 'TrainList.txt')
-f = open(my_file,'r')
-trainList = f.readlines()
-ticket_index = []
-a = main()
-a.menu(trainList, ticket_index)
+if __name__ == '__main__':
+    THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
+    my_file = os.path.join(THIS_FOLDER, 'TrainList.txt')
+    f = open(my_file,'r')
+    trainList = f.readlines()
+    ticket_index = []
+    a = main()
+    a.menu(trainList, ticket_index)
