@@ -19,5 +19,6 @@ class Bubble_sort{
 		for(int i = 0 ; i < Sort_List.length ; i ++) {
 			System.out.print(Sort_List[i] + " ");
 		}
+		sc.close();
     }
 }

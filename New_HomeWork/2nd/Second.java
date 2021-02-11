@@ -4,5 +4,6 @@ public class Second {
         Scanner sc = new Scanner(System.in);
         int Input_Number = sc.nextInt();
         System.out.println((Input_Number % 2 == 0) ? "짝수" : "홀수");
+        sc.close();
     }
 }

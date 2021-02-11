@@ -9,6 +9,7 @@ public class third {
         }
         int result = temp.Sum_Total(Input_List);
         System.out.println(result);
+        sc.close();
     }
     public int Sum_Total(int[] Input_List){
         int result = 0;
