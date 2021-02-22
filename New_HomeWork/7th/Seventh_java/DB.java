@@ -1,26 +1,37 @@
 package Seventh_java;
-import java.util.*;
+
 class DB{
-    static int book_list;
-    public DB(){
-        System.out.println("DB Loading success!");
+
+    private String title;
+    private String author;
+    private String year;
+    private String company;
+    private String genre;
+
+    public DB(String title, String author, String year, String company, String genre) {
+        this.title = title;
+        this.author = author;
+        this.year = year;
+        this.company = company;
+        this.genre = genre;
     }
-    public void add_book(){
-        System.out.println("add_book");
+
+    public String getTitle() {
+        return this.title;
     }
-    public void find_book(){
-        System.out.println("find_book");
+    public String getAuthor() {
+        return this.author;
     }
-    public void revise_book(){
-        System.out.println("revise_book");
+    public String getYear() {
+        return this.year;
     }
-    public void delete_book(){
-        System.out.println("delete_book");
+    public String getCompany() {
+        return this.company;
     }
-    public void show_book(){
-        System.out.println("show_book");
+    public String getGenre() {
+        return this.genre;
     }
-    public void save_book(){
-        System.out.println("save_book");
+    public void show(){
+        System.out.println(this.title + " " + this.author + " " + this.year + " " + this.company + " " + this.genre);
     }
 }

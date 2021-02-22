@@ -4,12 +4,12 @@ public class menu {
     public menu(){
         System.out.println("프로그램 시작");
     }
-    public void menu1(){
-        Scanner sc = new Scanner(System.in);
+    public void Select_Menu(){
+        Scanner sc = new Scanner(System.in, "UTF8");
         int Selected_menu = -1;
-        DB data = new DB();
+        action data = new action();
         main_while : while(true){
-            System.out.println("메뉴를 선택하세요 \n");
+            System.out.println("메뉴를 선택하세요");
             System.out.println("1. 도서 추가(도서명, 저자, 출판연도, 출판사명, 장르 입력)");
             System.out.println("2. 도서 검색");
             System.out.println("3. 도서 정보 수정");
@@ -24,7 +24,7 @@ public class menu {
                     System.out.println("종료");
                     break main_while;
                 case 1:
-                    data.add_book();
+                    data.add_book();       // 인코딩 문제 발생
                     continue;
                 case 2:
                     data.find_book();
@@ -33,10 +33,10 @@ public class menu {
                     data.revise_book();
                     continue;
                 case 4:
-                    data.delete_book();
+                    data.delete_book();      // 구현 완료
                     continue;
                 case 5:
-                    data.show_book();
+                    data.show_book();      // 구현 완료
                     continue;
                 case 6:
                     data.save_book();
