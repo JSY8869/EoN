@@ -13,7 +13,7 @@ void pizza(int a[], int n) {
 int main() {
 	int* p;
 	int num;
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
 	scanf("%d", &num);
 	p = (int*)calloc(num+1, sizeof(int));
 	pizza(p, num);
