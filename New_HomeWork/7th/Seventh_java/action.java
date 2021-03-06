@@ -142,7 +142,7 @@ class action{
         }
     }
     public void save_book(){
-        File file = new File("C:/Users/Jason/Desktop/github/EoN/New_HomeWork/7th/Seventh_java/input.txt");
+        File file = new File("New_HomeWork/7th/Seventh_java/input.txt");
         String jump2 = " ";
         byte[] jump = jump2.getBytes();
         String br2 = "\r\n";
