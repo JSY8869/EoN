@@ -15,7 +15,13 @@ class DB{
         this.company = company;
         this.genre = genre;
     }
-
+    public void setter(String title, String author, String year, String company, String genre){
+        this.title = title;
+        this.author = author;
+        this.year = year;
+        this.company = company;
+        this.genre = genre;
+    }
     public String getTitle() {
         return this.title;
     }

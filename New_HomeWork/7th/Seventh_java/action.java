@@ -114,7 +114,6 @@ class action{
         show_book();
         System.out.print("수정할 책을 고르세요 : ");
         int revise_number = sc.nextInt();
-        Library.remove(revise_number);
         sc.nextLine();
         System.out.print("도서명 : ");
         String new_title = sc.nextLine();
@@ -126,7 +125,7 @@ class action{
         String new_company = sc.nextLine();
         System.out.print("장르 : ");
         String new_genre = sc.nextLine();
-        Library.add(new DB(new_title, new_author, new_year, new_company, new_genre));
+        Library.get(revise_number).setter(new_title, new_author, new_year, new_company, new_genre);
     }
     public void delete_book(){
         show_book();
