@@ -49,5 +49,6 @@ public class menu {
                     System.out.println("0 ~ 7을 입력하여 주세요.");
             }
         }
+        sc.close();
     }
 }
