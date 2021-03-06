@@ -13,5 +13,4 @@ public class Sixth {
         System.out.println(Result[N]);
         sc.close();
     }
-    
 }

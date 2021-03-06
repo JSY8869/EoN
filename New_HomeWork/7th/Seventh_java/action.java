@@ -8,7 +8,7 @@ class action{
     static int Len = 0;
     // 파일 불러오기
     public action(){
-        File file = new File("C:/Users/Jason/Desktop/github/EoN/New_HomeWork/7th/Seventh_java/input.txt");
+        File file = new File("New_HomeWork/7th/Seventh_java/input.txt");
         try {
             BufferedReader inFiles
             = new BufferedReader(new InputStreamReader(new FileInputStream(file.getAbsolutePath()), "UTF8"));
