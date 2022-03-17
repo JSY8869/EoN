@@ -5,8 +5,7 @@ print(input_list[-1])
 
 # 버전2
 sum = 0
-for value in list(map(int,input().split(","))):
-    sum += value
+for value in list(map(int,input().split(","))):sum += value
 print(sum)
 
 
